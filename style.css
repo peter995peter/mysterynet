@@ -33,6 +33,11 @@
     display: block;
 }
 
+.table {
+    border-collapse: separate; // 先設定表格的模式是分開
+    -webkit-border-vertical-spacing: 10px; //設定橫列分開的距離
+    -webkit-border-horizontal-spacing: 10px; // 設定直列分開的距離
+}
 .dropdown:hover .dropbtn {
     background-color: #60f000;
 }
